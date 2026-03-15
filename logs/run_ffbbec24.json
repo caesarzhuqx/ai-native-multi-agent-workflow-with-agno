@@ -1,0 +1,504 @@
+{
+  "run_id": "ffbbec24",
+  "input_records": [
+    {
+      "record_id": "L-100",
+      "record_type": "lead",
+      "company_name": "Northstar Health",
+      "owner": "Alicia",
+      "stage": "new",
+      "source": "inbound",
+      "annual_contract_value": 12000,
+      "days_in_stage": 3,
+      "last_activity_at": "2026-03-12T15:00:00",
+      "next_step": "Schedule qualification call",
+      "close_date": "2026-04-10",
+      "contact_title": "Director of Operations",
+      "notes": "Requested demo after webinar. Budget confirmed."
+    },
+    {
+      "record_id": "O-200",
+      "record_type": "opportunity",
+      "company_name": "BluePeak Logistics",
+      "owner": "Marcus",
+      "stage": "proposal",
+      "source": "referral",
+      "annual_contract_value": 78000,
+      "days_in_stage": 26,
+      "last_activity_at": "2026-03-01T17:30:00",
+      "next_step": null,
+      "close_date": "2026-03-25",
+      "contact_title": "VP Operations",
+      "notes": "Champion left the company. Competitor mentioned in last call."
+    },
+    {
+      "record_id": "O-201",
+      "record_type": "opportunity",
+      "company_name": "Acme Robotics",
+      "owner": "Jules",
+      "stage": "discovery",
+      "source": "outbound",
+      "annual_contract_value": 34000,
+      "days_in_stage": 18,
+      "last_activity_at": "2026-03-03T14:00:00",
+      "next_step": "Send mutual action plan",
+      "close_date": "2026-04-05",
+      "contact_title": "Head of RevOps",
+      "notes": "Good discovery but no response since follow-up."
+    },
+    {
+      "record_id": "O-202",
+      "record_type": "opportunity",
+      "company_name": "Delta Bio",
+      "owner": "Nina",
+      "stage": "demo",
+      "source": "inbound",
+      "annual_contract_value": 150000,
+      "days_in_stage": 7,
+      "last_activity_at": "2026-03-11T19:00:00",
+      "next_step": "Confirm technical validation meeting",
+      "close_date": "2026-03-28",
+      "contact_title": "CIO",
+      "notes": "Budget confirmed and strong executive support."
+    },
+    {
+      "record_id": "L-101",
+      "record_type": "lead",
+      "company_name": "Harbor Retail",
+      "owner": "Sam",
+      "stage": "new",
+      "source": "partner",
+      "annual_contract_value": 9000,
+      "days_in_stage": 11,
+      "last_activity_at": "2026-02-28T13:00:00",
+      "next_step": null,
+      "close_date": "2026-04-20",
+      "contact_title": "Revenue Manager",
+      "notes": "No response after initial outreach."
+    },
+    {
+      "record_id": "O-203",
+      "record_type": "opportunity",
+      "company_name": "Quartz Security",
+      "owner": "Devon",
+      "stage": "negotiation",
+      "source": "conference",
+      "annual_contract_value": 56000,
+      "days_in_stage": 24,
+      "last_activity_at": "2026-03-02T12:00:00",
+      "next_step": "Share pricing revision",
+      "close_date": "2026-03-22",
+      "contact_title": "Chief Security Officer",
+      "notes": "Competitor mentioned, procurement asks for revised pricing."
+    }
+  ],
+  "validated_records": [
+    {
+      "record_id": "L-100",
+      "record_type": "lead",
+      "company_name": "Northstar Health",
+      "owner": "Alicia",
+      "stage": "new",
+      "source": "inbound",
+      "annual_contract_value": 12000,
+      "days_in_stage": 3,
+      "last_activity_at": "2026-03-12T15:00:00",
+      "next_step": "Schedule qualification call",
+      "close_date": "2026-04-10",
+      "contact_title": "Director of Operations",
+      "notes": "Requested demo after webinar. Budget confirmed."
+    },
+    {
+      "record_id": "O-200",
+      "record_type": "opportunity",
+      "company_name": "BluePeak Logistics",
+      "owner": "Marcus",
+      "stage": "proposal",
+      "source": "referral",
+      "annual_contract_value": 78000,
+      "days_in_stage": 26,
+      "last_activity_at": "2026-03-01T17:30:00",
+      "next_step": null,
+      "close_date": "2026-03-25",
+      "contact_title": "VP Operations",
+      "notes": "Champion left the company. Competitor mentioned in last call."
+    },
+    {
+      "record_id": "O-201",
+      "record_type": "opportunity",
+      "company_name": "Acme Robotics",
+      "owner": "Jules",
+      "stage": "discovery",
+      "source": "outbound",
+      "annual_contract_value": 34000,
+      "days_in_stage": 18,
+      "last_activity_at": "2026-03-03T14:00:00",
+      "next_step": "Send mutual action plan",
+      "close_date": "2026-04-05",
+      "contact_title": "Head of RevOps",
+      "notes": "Good discovery but no response since follow-up."
+    },
+    {
+      "record_id": "O-202",
+      "record_type": "opportunity",
+      "company_name": "Delta Bio",
+      "owner": "Nina",
+      "stage": "demo",
+      "source": "inbound",
+      "annual_contract_value": 150000,
+      "days_in_stage": 7,
+      "last_activity_at": "2026-03-11T19:00:00",
+      "next_step": "Confirm technical validation meeting",
+      "close_date": "2026-03-28",
+      "contact_title": "CIO",
+      "notes": "Budget confirmed and strong executive support."
+    },
+    {
+      "record_id": "L-101",
+      "record_type": "lead",
+      "company_name": "Harbor Retail",
+      "owner": "Sam",
+      "stage": "new",
+      "source": "partner",
+      "annual_contract_value": 9000,
+      "days_in_stage": 11,
+      "last_activity_at": "2026-02-28T13:00:00",
+      "next_step": null,
+      "close_date": "2026-04-20",
+      "contact_title": "Revenue Manager",
+      "notes": "No response after initial outreach."
+    },
+    {
+      "record_id": "O-203",
+      "record_type": "opportunity",
+      "company_name": "Quartz Security",
+      "owner": "Devon",
+      "stage": "negotiation",
+      "source": "conference",
+      "annual_contract_value": 56000,
+      "days_in_stage": 24,
+      "last_activity_at": "2026-03-02T12:00:00",
+      "next_step": "Share pricing revision",
+      "close_date": "2026-03-22",
+      "contact_title": "Chief Security Officer",
+      "notes": "Competitor mentioned, procurement asks for revised pricing."
+    }
+  ],
+  "validation_issues": [],
+  "classifications": [
+    {
+      "record_id": "L-100",
+      "priority_level": "P3",
+      "score": 38,
+      "risk_flags": [],
+      "intent_signals": [
+        "budget_confirmed",
+        "requested_demo"
+      ],
+      "evidence": [
+        "Buyer indicated budget alignment.",
+        "Buyer asked for a demo."
+      ]
+    },
+    {
+      "record_id": "O-200",
+      "priority_level": "P1",
+      "score": 100,
+      "risk_flags": [
+        "champion_left",
+        "competitive_pressure",
+        "missing_next_step",
+        "no_next_step_near_close",
+        "stale_activity",
+        "stalled_stage"
+      ],
+      "intent_signals": [
+        "champion_left",
+        "competitor_mentioned"
+      ],
+      "evidence": [
+        "Opportunity records receive a higher base score.",
+        "High ACV opportunity.",
+        "Record has been stuck in-stage for 21+ days.",
+        "No recent seller activity in 10+ days.",
+        "Close date is near but next step is empty.",
+        "Internal champion may have left the account.",
+        "Competitive pressure is present.",
+        "Next step is missing."
+      ]
+    },
+    {
+      "record_id": "O-201",
+      "priority_level": "P2",
+      "score": 73,
+      "risk_flags": [
+        "stale_activity",
+        "unresponsive_buyer"
+      ],
+      "intent_signals": [
+        "no_response"
+      ],
+      "evidence": [
+        "Opportunity records receive a higher base score.",
+        "Mid-market ACV potential.",
+        "No recent seller activity in 10+ days.",
+        "Notes mention lack of buyer response."
+      ]
+    },
+    {
+      "record_id": "O-202",
+      "priority_level": "P2",
+      "score": 70,
+      "risk_flags": [],
+      "intent_signals": [
+        "budget_confirmed"
+      ],
+      "evidence": [
+        "Opportunity records receive a higher base score.",
+        "High ACV opportunity.",
+        "Buyer indicated budget alignment."
+      ]
+    },
+    {
+      "record_id": "L-101",
+      "priority_level": "P3",
+      "score": 48,
+      "risk_flags": [
+        "missing_next_step",
+        "stale_activity",
+        "unresponsive_buyer"
+      ],
+      "intent_signals": [
+        "no_response"
+      ],
+      "evidence": [
+        "No recent seller activity in 10+ days.",
+        "Notes mention lack of buyer response.",
+        "Next step is missing."
+      ]
+    },
+    {
+      "record_id": "O-203",
+      "priority_level": "P1",
+      "score": 95,
+      "risk_flags": [
+        "competitive_pressure",
+        "stale_activity",
+        "stalled_stage"
+      ],
+      "intent_signals": [
+        "competitor_mentioned"
+      ],
+      "evidence": [
+        "Opportunity records receive a higher base score.",
+        "High ACV opportunity.",
+        "Record has been stuck in-stage for 21+ days.",
+        "No recent seller activity in 10+ days.",
+        "Competitive pressure is present."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "record_id": "L-100",
+      "priority_level": "P3",
+      "recommended_owner": "Alicia",
+      "due_date": "2026-03-19",
+      "next_action": "Book demo follow-up and confirm attendees.",
+      "reason": "Buyer indicated budget alignment.; Buyer asked for a demo.",
+      "confidence": 0.74,
+      "escalation_required": false
+    },
+    {
+      "record_id": "O-200",
+      "priority_level": "P1",
+      "recommended_owner": "Marcus",
+      "due_date": "2026-03-15",
+      "next_action": "Ask the account executive to reset a named next meeting.",
+      "reason": "Opportunity records receive a higher base score.; High ACV opportunity.; Record has been stuck in-stage for 21+ days.",
+      "confidence": 0.95,
+      "escalation_required": true
+    },
+    {
+      "record_id": "O-201",
+      "priority_level": "P2",
+      "recommended_owner": "Jules",
+      "due_date": "2026-03-17",
+      "next_action": "Prompt the owner to re-engage with a tailored outreach.",
+      "reason": "Opportunity records receive a higher base score.; Mid-market ACV potential.; No recent seller activity in 10+ days.",
+      "confidence": 0.915,
+      "escalation_required": false
+    },
+    {
+      "record_id": "O-202",
+      "priority_level": "P2",
+      "recommended_owner": "Nina",
+      "due_date": "2026-03-17",
+      "next_action": "Advance qualification with a clear buyer-specific next step.",
+      "reason": "Opportunity records receive a higher base score.; High ACV opportunity.; Buyer indicated budget alignment.",
+      "confidence": 0.9,
+      "escalation_required": false
+    },
+    {
+      "record_id": "L-101",
+      "priority_level": "P3",
+      "recommended_owner": "Sam",
+      "due_date": "2026-03-19",
+      "next_action": "Prompt the owner to re-engage with a tailored outreach.",
+      "reason": "No recent seller activity in 10+ days.; Notes mention lack of buyer response.; Next step is missing.",
+      "confidence": 0.79,
+      "escalation_required": false
+    },
+    {
+      "record_id": "O-203",
+      "priority_level": "P1",
+      "recommended_owner": "Devon",
+      "due_date": "2026-03-15",
+      "next_action": "Ask the account executive to reset a named next meeting.",
+      "reason": "Opportunity records receive a higher base score.; High ACV opportunity.; Record has been stuck in-stage for 21+ days.",
+      "confidence": 0.95,
+      "escalation_required": false
+    }
+  ],
+  "review": {
+    "approved": true,
+    "issues": [],
+    "repaired_actions": [
+      {
+        "record_id": "L-100",
+        "priority_level": "P3",
+        "recommended_owner": "Alicia",
+        "due_date": "2026-03-19",
+        "next_action": "Book demo follow-up and confirm attendees.",
+        "reason": "Buyer indicated budget alignment.; Buyer asked for a demo.",
+        "confidence": 0.74,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-200",
+        "priority_level": "P1",
+        "recommended_owner": "Marcus",
+        "due_date": "2026-03-15",
+        "next_action": "Ask the account executive to reset a named next meeting.",
+        "reason": "Opportunity records receive a higher base score.; High ACV opportunity.; Record has been stuck in-stage for 21+ days.",
+        "confidence": 0.95,
+        "escalation_required": true
+      },
+      {
+        "record_id": "O-201",
+        "priority_level": "P2",
+        "recommended_owner": "Jules",
+        "due_date": "2026-03-17",
+        "next_action": "Prompt the owner to re-engage with a tailored outreach.",
+        "reason": "Opportunity records receive a higher base score.; Mid-market ACV potential.; No recent seller activity in 10+ days.",
+        "confidence": 0.915,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-202",
+        "priority_level": "P2",
+        "recommended_owner": "Nina",
+        "due_date": "2026-03-17",
+        "next_action": "Advance qualification with a clear buyer-specific next step.",
+        "reason": "Opportunity records receive a higher base score.; High ACV opportunity.; Buyer indicated budget alignment.",
+        "confidence": 0.9,
+        "escalation_required": false
+      },
+      {
+        "record_id": "L-101",
+        "priority_level": "P3",
+        "recommended_owner": "Sam",
+        "due_date": "2026-03-19",
+        "next_action": "Prompt the owner to re-engage with a tailored outreach.",
+        "reason": "No recent seller activity in 10+ days.; Notes mention lack of buyer response.; Next step is missing.",
+        "confidence": 0.79,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-203",
+        "priority_level": "P1",
+        "recommended_owner": "Devon",
+        "due_date": "2026-03-15",
+        "next_action": "Ask the account executive to reset a named next meeting.",
+        "reason": "Opportunity records receive a higher base score.; High ACV opportunity.; Record has been stuck in-stage for 21+ days.",
+        "confidence": 0.95,
+        "escalation_required": false
+      }
+    ]
+  },
+  "summary": {
+    "headline": "RevOps Daily Pipeline Triage",
+    "top_actions": [
+      "O-200: Ask the account executive to reset a named next meeting. (P1)",
+      "O-203: Ask the account executive to reset a named next meeting. (P1)",
+      "O-201: Prompt the owner to re-engage with a tailored outreach. (P2)",
+      "O-202: Advance qualification with a clear buyer-specific next step. (P2)",
+      "L-101: Prompt the owner to re-engage with a tailored outreach. (P3)"
+    ],
+    "risks": [
+      "O-200: champion_left, competitive_pressure, missing_next_step, no_next_step_near_close, stale_activity, stalled_stage",
+      "O-201: stale_activity, unresponsive_buyer",
+      "L-101: missing_next_step, stale_activity, unresponsive_buyer",
+      "O-203: competitive_pressure, stale_activity, stalled_stage"
+    ],
+    "data_quality_notes": [
+      "No validation issues."
+    ],
+    "manager_notes": [
+      "O-200: escalation recommended for Marcus"
+    ]
+  },
+  "output_dir": "demo",
+  "metrics": {
+    "run_started_at": "2026-03-14T05:56:28.849467Z",
+    "run_ended_at": "2026-03-14T05:56:28.862160Z",
+    "total_latency_ms": 12,
+    "success": true,
+    "traces": [
+      {
+        "agent_name": "intake_coordinator",
+        "started_at": "2026-03-14T05:56:28.851386Z",
+        "ended_at": "2026-03-14T05:56:28.856399Z",
+        "latency_ms": 4,
+        "success": true,
+        "retries": 0,
+        "token_input": null,
+        "token_output": null,
+        "error_message": null
+      },
+      {
+        "agent_name": "classification_agent",
+        "started_at": "2026-03-14T05:56:28.856399Z",
+        "ended_at": "2026-03-14T05:56:28.856399Z",
+        "latency_ms": 0,
+        "success": true,
+        "retries": 0,
+        "token_input": null,
+        "token_output": null,
+        "error_message": null
+      },
+      {
+        "agent_name": "action_agent",
+        "started_at": "2026-03-14T05:56:28.856399Z",
+        "ended_at": "2026-03-14T05:56:28.857397Z",
+        "latency_ms": 0,
+        "success": true,
+        "retries": 0,
+        "token_input": null,
+        "token_output": null,
+        "error_message": null
+      },
+      {
+        "agent_name": "review_agent",
+        "started_at": "2026-03-14T05:56:28.857397Z",
+        "ended_at": "2026-03-14T05:56:28.857397Z",
+        "latency_ms": 0,
+        "success": true,
+        "retries": 0,
+        "token_input": null,
+        "token_output": null,
+        "error_message": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1003 @@
+{
+  "run_id": "3cd916c2",
+  "input_path": "data/sample_pipeline.csv",
+  "input_records": [
+    {
+      "record_id": "L-100",
+      "record_type": "lead",
+      "company_name": "Northstar Health",
+      "owner": "Alicia",
+      "stage": "new",
+      "source": "inbound",
+      "annual_contract_value": 12000,
+      "days_in_stage": 4,
+      "last_activity_at": "2026-03-12T15:00:00",
+      "next_step": "Schedule qualification call",
+      "close_date": "2026-04-10",
+      "contact_title": "Director of Operations",
+      "notes": "Requested demo after webinar. Budget confirmed. Team asked for a tailored walkthrough next week."
+    },
+    {
+      "record_id": "O-200",
+      "record_type": "opportunity",
+      "company_name": "BluePeak Logistics",
+      "owner": "Marcus",
+      "stage": "proposal",
+      "source": "referral",
+      "annual_contract_value": 78000,
+      "days_in_stage": 26,
+      "last_activity_at": "2026-03-01T17:30:00",
+      "next_step": null,
+      "close_date": "2026-03-25",
+      "contact_title": "VP Operations",
+      "notes": "Champion left the company. Competitor mentioned in last call. Buyer asked who else can approve the project."
+    },
+    {
+      "record_id": "O-201",
+      "record_type": "opportunity",
+      "company_name": "Acme Robotics",
+      "owner": "Jules",
+      "stage": "discovery",
+      "source": "outbound",
+      "annual_contract_value": 34000,
+      "days_in_stage": 18,
+      "last_activity_at": "2026-03-03T14:00:00",
+      "next_step": "Send mutual action plan",
+      "close_date": "2026-04-05",
+      "contact_title": "Head of RevOps",
+      "notes": "Good discovery with clear pain, but no response since follow-up. Internal notes mention procurement may slow things down."
+    },
+    {
+      "record_id": "O-202",
+      "record_type": "opportunity",
+      "company_name": "Delta Bio",
+      "owner": "Nina",
+      "stage": "demo",
+      "source": "inbound",
+      "annual_contract_value": 150000,
+      "days_in_stage": 9,
+      "last_activity_at": "2026-03-01T19:00:00",
+      "next_step": "Confirm technical validation meeting",
+      "close_date": "2026-03-28",
+      "contact_title": "CIO",
+      "notes": "Budget confirmed and strong executive support. Buyer wants security review completed before commercial discussion."
+    },
+    {
+      "record_id": "L-101",
+      "record_type": "lead",
+      "company_name": "Harbor Retail",
+      "owner": "Sam",
+      "stage": "new",
+      "source": "partner",
+      "annual_contract_value": 9000,
+      "days_in_stage": 11,
+      "last_activity_at": "2026-02-28T13:00:00",
+      "next_step": null,
+      "close_date": "2026-04-20",
+      "contact_title": "Revenue Manager",
+      "notes": "No response after initial outreach. Contact opened the first note but has not replied."
+    },
+    {
+      "record_id": "O-203",
+      "record_type": "opportunity",
+      "company_name": "Quartz Security",
+      "owner": "Devon",
+      "stage": "negotiation",
+      "source": "conference",
+      "annual_contract_value": 56000,
+      "days_in_stage": 24,
+      "last_activity_at": "2026-03-02T12:00:00",
+      "next_step": "Share pricing revision",
+      "close_date": "2026-03-22",
+      "contact_title": "Chief Security Officer",
+      "notes": "Competitor mentioned, procurement asks for revised pricing, and legal review is still open."
+    },
+    {
+      "record_id": "O-204",
+      "record_type": "opportunity",
+      "company_name": "Atlas Cloud",
+      "owner": "Maya",
+      "stage": "proposal",
+      "source": "inbound",
+      "annual_contract_value": 92000,
+      "days_in_stage": 16,
+      "last_activity_at": "2026-02-27T16:30:00",
+      "next_step": null,
+      "close_date": "2026-03-24",
+      "contact_title": "VP Finance",
+      "notes": "Budget confirmed. Requested demo recap for CFO. No seller follow-up logged after the pricing review."
+    },
+    {
+      "record_id": "L-102",
+      "record_type": "lead",
+      "company_name": "Beacon Manufacturing",
+      "owner": "Jordan",
+      "stage": "qualifying",
+      "source": "webinar",
+      "annual_contract_value": 18000,
+      "days_in_stage": 6,
+      "last_activity_at": "2026-03-11T10:15:00",
+      "next_step": "Send demo availability options",
+      "close_date": "2026-04-18",
+      "contact_title": "Operations Director",
+      "notes": "Requested demo after webinar. Evaluating in Q2 and comparing two vendors."
+    },
+    {
+      "record_id": "O-205",
+      "record_type": "opportunity",
+      "company_name": "Cedar Analytics",
+      "owner": "Priya",
+      "stage": "discovery",
+      "source": "outbound",
+      "annual_contract_value": 47000,
+      "days_in_stage": 14,
+      "last_activity_at": "2026-03-13T09:45:00",
+      "next_step": "Send ROI model",
+      "close_date": "2026-04-12",
+      "contact_title": "VP Strategy",
+      "notes": "Positive champion feedback and clean next step. No major blockers surfaced yet."
+    },
+    {
+      "record_id": "O-206",
+      "record_type": "opportunity",
+      "company_name": "Elm Commerce",
+      "owner": "Rafael",
+      "stage": "proposal",
+      "source": "partner",
+      "annual_contract_value": 61000,
+      "days_in_stage": 20,
+      "last_activity_at": "2026-03-04T11:20:00",
+      "next_step": "TBD",
+      "close_date": "2026-03-27",
+      "contact_title": "Head of Sales Ops",
+      "notes": "Budget confirmed, but notes are messy. Asked for updated order form, then went quiet. Need to confirm if legal or pricing is blocking."
+    }
+  ],
+  "validated_records": [
+    {
+      "record_id": "L-100",
+      "record_type": "lead",
+      "company_name": "Northstar Health",
+      "owner": "Alicia",
+      "stage": "new",
+      "source": "inbound",
+      "annual_contract_value": 12000,
+      "days_in_stage": 4,
+      "last_activity_at": "2026-03-12T15:00:00",
+      "next_step": "Schedule qualification call",
+      "close_date": "2026-04-10",
+      "contact_title": "Director of Operations",
+      "notes": "Requested demo after webinar. Budget confirmed. Team asked for a tailored walkthrough next week."
+    },
+    {
+      "record_id": "O-200",
+      "record_type": "opportunity",
+      "company_name": "BluePeak Logistics",
+      "owner": "Marcus",
+      "stage": "proposal",
+      "source": "referral",
+      "annual_contract_value": 78000,
+      "days_in_stage": 26,
+      "last_activity_at": "2026-03-01T17:30:00",
+      "next_step": null,
+      "close_date": "2026-03-25",
+      "contact_title": "VP Operations",
+      "notes": "Champion left the company. Competitor mentioned in last call. Buyer asked who else can approve the project."
+    },
+    {
+      "record_id": "O-201",
+      "record_type": "opportunity",
+      "company_name": "Acme Robotics",
+      "owner": "Jules",
+      "stage": "discovery",
+      "source": "outbound",
+      "annual_contract_value": 34000,
+      "days_in_stage": 18,
+      "last_activity_at": "2026-03-03T14:00:00",
+      "next_step": "Send mutual action plan",
+      "close_date": "2026-04-05",
+      "contact_title": "Head of RevOps",
+      "notes": "Good discovery with clear pain, but no response since follow-up. Internal notes mention procurement may slow things down."
+    },
+    {
+      "record_id": "O-202",
+      "record_type": "opportunity",
+      "company_name": "Delta Bio",
+      "owner": "Nina",
+      "stage": "demo",
+      "source": "inbound",
+      "annual_contract_value": 150000,
+      "days_in_stage": 9,
+      "last_activity_at": "2026-03-01T19:00:00",
+      "next_step": "Confirm technical validation meeting",
+      "close_date": "2026-03-28",
+      "contact_title": "CIO",
+      "notes": "Budget confirmed and strong executive support. Buyer wants security review completed before commercial discussion."
+    },
+    {
+      "record_id": "L-101",
+      "record_type": "lead",
+      "company_name": "Harbor Retail",
+      "owner": "Sam",
+      "stage": "new",
+      "source": "partner",
+      "annual_contract_value": 9000,
+      "days_in_stage": 11,
+      "last_activity_at": "2026-02-28T13:00:00",
+      "next_step": null,
+      "close_date": "2026-04-20",
+      "contact_title": "Revenue Manager",
+      "notes": "No response after initial outreach. Contact opened the first note but has not replied."
+    },
+    {
+      "record_id": "O-203",
+      "record_type": "opportunity",
+      "company_name": "Quartz Security",
+      "owner": "Devon",
+      "stage": "negotiation",
+      "source": "conference",
+      "annual_contract_value": 56000,
+      "days_in_stage": 24,
+      "last_activity_at": "2026-03-02T12:00:00",
+      "next_step": "Share pricing revision",
+      "close_date": "2026-03-22",
+      "contact_title": "Chief Security Officer",
+      "notes": "Competitor mentioned, procurement asks for revised pricing, and legal review is still open."
+    },
+    {
+      "record_id": "O-204",
+      "record_type": "opportunity",
+      "company_name": "Atlas Cloud",
+      "owner": "Maya",
+      "stage": "proposal",
+      "source": "inbound",
+      "annual_contract_value": 92000,
+      "days_in_stage": 16,
+      "last_activity_at": "2026-02-27T16:30:00",
+      "next_step": null,
+      "close_date": "2026-03-24",
+      "contact_title": "VP Finance",
+      "notes": "Budget confirmed. Requested demo recap for CFO. No seller follow-up logged after the pricing review."
+    },
+    {
+      "record_id": "L-102",
+      "record_type": "lead",
+      "company_name": "Beacon Manufacturing",
+      "owner": "Jordan",
+      "stage": "qualifying",
+      "source": "webinar",
+      "annual_contract_value": 18000,
+      "days_in_stage": 6,
+      "last_activity_at": "2026-03-11T10:15:00",
+      "next_step": "Send demo availability options",
+      "close_date": "2026-04-18",
+      "contact_title": "Operations Director",
+      "notes": "Requested demo after webinar. Evaluating in Q2 and comparing two vendors."
+    },
+    {
+      "record_id": "O-205",
+      "record_type": "opportunity",
+      "company_name": "Cedar Analytics",
+      "owner": "Priya",
+      "stage": "discovery",
+      "source": "outbound",
+      "annual_contract_value": 47000,
+      "days_in_stage": 14,
+      "last_activity_at": "2026-03-13T09:45:00",
+      "next_step": "Send ROI model",
+      "close_date": "2026-04-12",
+      "contact_title": "VP Strategy",
+      "notes": "Positive champion feedback and clean next step. No major blockers surfaced yet."
+    },
+    {
+      "record_id": "O-206",
+      "record_type": "opportunity",
+      "company_name": "Elm Commerce",
+      "owner": "Rafael",
+      "stage": "proposal",
+      "source": "partner",
+      "annual_contract_value": 61000,
+      "days_in_stage": 20,
+      "last_activity_at": "2026-03-04T11:20:00",
+      "next_step": "TBD",
+      "close_date": "2026-03-27",
+      "contact_title": "Head of Sales Ops",
+      "notes": "Budget confirmed, but notes are messy. Asked for updated order form, then went quiet. Need to confirm if legal or pricing is blocking."
+    }
+  ],
+  "validation_issues": [],
+  "classifications": [
+    {
+      "record_id": "L-100",
+      "priority_level": "P3",
+      "score": 32,
+      "risk_flags": [],
+      "intent_signals": [
+        "budget_confirmed",
+        "requested_demo"
+      ],
+      "evidence": [
+        "Buyer indicated budget alignment.",
+        "Buyer asked for a demo."
+      ]
+    },
+    {
+      "record_id": "O-200",
+      "priority_level": "P1",
+      "score": 100,
+      "risk_flags": [
+        "champion_left",
+        "competitive_pressure",
+        "missing_next_step",
+        "no_next_step_near_close",
+        "stale_activity",
+        "stalled_stage"
+      ],
+      "intent_signals": [
+        "champion_left",
+        "competitor_mentioned"
+      ],
+      "evidence": [
+        "Opportunity records receive a higher base score.",
+        "High ACV opportunity.",
+        "Record has been stuck in-stage for 21+ days.",
+        "No recent seller activity in 10+ days.",
+        "Close date is near but next step is empty.",
+        "Internal champion may have left the account.",
+        "Competitive pressure is present.",
+        "Next step is missing."
+      ]
+    },
+    {
+      "record_id": "O-201",
+      "priority_level": "P2",
+      "score": 66,
+      "risk_flags": [
+        "stale_activity",
+        "unresponsive_buyer"
+      ],
+      "intent_signals": [
+        "no_response"
+      ],
+      "evidence": [
+        "Opportunity records receive a higher base score.",
+        "Mid-market ACV potential.",
+        "No recent seller activity in 10+ days.",
+        "Notes mention lack of buyer response."
+      ]
+    },
+    {
+      "record_id": "O-202",
+      "priority_level": "P2",
+      "score": 74,
+      "risk_flags": [
+        "stale_activity"
+      ],
+      "intent_signals": [
+        "budget_confirmed"
+      ],
+      "evidence": [
+        "Opportunity records receive a higher base score.",
+        "High ACV opportunity.",
+        "No recent seller activity in 10+ days.",
+        "Buyer indicated budget alignment."
+      ]
+    },
+    {
+      "record_id": "L-101",
+      "priority_level": "P3",
+      "score": 41,
+      "risk_flags": [
+        "missing_next_step",
+        "stale_activity",
+        "unresponsive_buyer"
+      ],
+      "intent_signals": [
+        "no_response"
+      ],
+      "evidence": [
+        "No recent seller activity in 10+ days.",
+        "Notes mention lack of buyer response.",
+        "Next step is missing."
+      ]
+    },
+    {
+      "record_id": "O-203",
+      "priority_level": "P1",
+      "score": 88,
+      "risk_flags": [
+        "competitive_pressure",
+        "stale_activity",
+        "stalled_stage"
+      ],
+      "intent_signals": [
+        "competitor_mentioned"
+      ],
+      "evidence": [
+        "Opportunity records receive a higher base score.",
+        "High ACV opportunity.",
+        "Record has been stuck in-stage for 21+ days.",
+        "No recent seller activity in 10+ days.",
+        "Competitive pressure is present."
+      ]
+    },
+    {
+      "record_id": "O-204",
+      "priority_level": "P1",
+      "score": 100,
+      "risk_flags": [
+        "missing_next_step",
+        "no_next_step_near_close",
+        "stale_activity"
+      ],
+      "intent_signals": [
+        "budget_confirmed",
+        "requested_demo"
+      ],
+      "evidence": [
+        "Opportunity records receive a higher base score.",
+        "High ACV opportunity.",
+        "No recent seller activity in 10+ days.",
+        "Close date is near but next step is empty.",
+        "Buyer indicated budget alignment.",
+        "Buyer asked for a demo.",
+        "Next step is missing."
+      ]
+    },
+    {
+      "record_id": "L-102",
+      "priority_level": "P3",
+      "score": 36,
+      "risk_flags": [],
+      "intent_signals": [
+        "requested_demo"
+      ],
+      "evidence": [
+        "Mid-market ACV potential.",
+        "Buyer asked for a demo."
+      ]
+    },
+    {
+      "record_id": "O-205",
+      "priority_level": "P2",
+      "score": 50,
+      "risk_flags": [],
+      "intent_signals": [],
+      "evidence": [
+        "Opportunity records receive a higher base score.",
+        "Mid-market ACV potential."
+      ]
+    },
+    {
+      "record_id": "O-206",
+      "priority_level": "P2",
+      "score": 74,
+      "risk_flags": [
+        "stale_activity"
+      ],
+      "intent_signals": [
+        "budget_confirmed"
+      ],
+      "evidence": [
+        "Opportunity records receive a higher base score.",
+        "High ACV opportunity.",
+        "No recent seller activity in 10+ days.",
+        "Buyer indicated budget alignment."
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "record_id": "O-200",
+      "priority_level": "P1",
+      "score": 100,
+      "recommended_owner": "Marcus",
+      "due_date": "2026-03-15",
+      "next_action": "Marcus should identify a new champion at BluePeak Logistics, send a same-day follow-up to confirm decision ownership, and log a replacement contact plus next meeting by 2026-03-15.",
+      "reason": "Highest priority because the deal may have lost its champion, the close window is near without a committed next step, the deal has been sitting in stage too long, competitive pressure is active, seller activity has gone stale, and the record has no clear next step.",
+      "business_rationale": "Near-close slippage risk on an active deal: BluePeak Logistics is close to deadline without a committed next step.",
+      "operator_note": "Review with Marcus today and confirm the CRM next step before 2026-03-15. Add manager visibility on this record in the same update.",
+      "confidence": 0.95,
+      "escalation_required": true
+    },
+    {
+      "record_id": "O-204",
+      "priority_level": "P1",
+      "score": 100,
+      "recommended_owner": "Maya",
+      "due_date": "2026-03-15",
+      "next_action": "Maya should lock the next buyer meeting for Atlas Cloud today, add the dated meeting and owner in CRM immediately, and confirm buyer commitments before the close window slips.",
+      "reason": "Highest priority because the close window is near without a committed next step, seller activity has gone stale, and the record has no clear next step.",
+      "business_rationale": "Near-close slippage risk on an active deal: Atlas Cloud is close to deadline without a committed next step.",
+      "operator_note": "Review with Maya today and confirm the CRM next step before 2026-03-15. Add manager visibility on this record in the same update.",
+      "confidence": 0.95,
+      "escalation_required": true
+    },
+    {
+      "record_id": "O-203",
+      "priority_level": "P1",
+      "score": 88,
+      "recommended_owner": "Devon",
+      "due_date": "2026-03-15",
+      "next_action": "Devon should clarify decision criteria and blocker with Quartz Security, schedule a buyer touchpoint within 24 hours, and document competitive next steps plus timeline in CRM by 2026-03-15.",
+      "reason": "Highest priority because the deal has been sitting in stage too long, competitive pressure is active, and seller activity has gone stale.",
+      "business_rationale": "High-ACV opportunity under competitive pressure: the deal needs immediate intervention to protect pipeline value.",
+      "operator_note": "Review with Devon today and confirm the CRM next step before 2026-03-15. Add manager visibility on this record in the same update.",
+      "confidence": 0.95,
+      "escalation_required": true
+    },
+    {
+      "record_id": "O-202",
+      "priority_level": "P2",
+      "score": 74,
+      "recommended_owner": "Nina",
+      "due_date": "2026-03-17",
+      "next_action": "Nina should move Delta Bio to the next commercial step, confirm buying process, and document a dated next action in CRM by 2026-03-17.",
+      "reason": "Prioritized because seller activity has gone stale, while budget has been confirmed shows the record is still commercially active.",
+      "business_rationale": "Budget appears real, so the account should be advanced to a dated commercial next step instead of sitting in queue.",
+      "operator_note": "Check that Nina has a dated next step in CRM before 2026-03-17.",
+      "confidence": 0.92,
+      "escalation_required": false
+    },
+    {
+      "record_id": "O-206",
+      "priority_level": "P2",
+      "score": 74,
+      "recommended_owner": "Rafael",
+      "due_date": "2026-03-17",
+      "next_action": "Rafael should clean up the open items on Elm Commerce, confirm whether legal, pricing, or process is blocking the deal, and replace the vague next step with a dated commercial action in CRM by 2026-03-17.",
+      "reason": "Prioritized because seller activity has gone stale, while budget has been confirmed shows the record is still commercially active.",
+      "business_rationale": "Business risk is concentrated in stale seller activity, so this record needs operator attention before it slips further.",
+      "operator_note": "Check that Rafael has a dated next step in CRM before 2026-03-17.",
+      "confidence": 0.92,
+      "escalation_required": false
+    },
+    {
+      "record_id": "O-201",
+      "priority_level": "P2",
+      "score": 66,
+      "recommended_owner": "Jules",
+      "due_date": "2026-03-17",
+      "next_action": "Jules should send a concrete follow-up to Acme Robotics with two meeting slots, call the main contact, and close the loop in CRM if there is still no response by 2026-03-17.",
+      "reason": "Prioritized because seller activity has gone stale, and the buyer has not responded to follow-up and the deal still has meaningful pipeline value.",
+      "business_rationale": "Business risk is concentrated in stale seller activity, and an unresponsive buyer, so this record needs operator attention before it slips further.",
+      "operator_note": "Check that Jules has a dated next step in CRM before 2026-03-17.",
+      "confidence": 0.8800000000000001,
+      "escalation_required": false
+    },
+    {
+      "record_id": "O-205",
+      "priority_level": "P2",
+      "score": 50,
+      "recommended_owner": "Priya",
+      "due_date": "2026-03-17",
+      "next_action": "Priya should contact Cedar Analytics, confirm the buyer's next milestone, and leave a dated follow-up step in CRM by 2026-03-17.",
+      "reason": "Prioritized because the record shows enough commercial signal to warrant follow-up and the deal still has meaningful pipeline value.",
+      "business_rationale": "Business risk is concentrated in mixed commercial risk, so this record needs operator attention before it slips further.",
+      "operator_note": "Check that Priya has a dated next step in CRM before 2026-03-17.",
+      "confidence": 0.8,
+      "escalation_required": false
+    },
+    {
+      "record_id": "L-101",
+      "priority_level": "P3",
+      "score": 41,
+      "recommended_owner": "Sam",
+      "due_date": "2026-03-19",
+      "next_action": "Sam should send a concrete follow-up to Harbor Retail with two meeting slots, call the main contact, and close the loop in CRM if there is still no response by 2026-03-19.",
+      "reason": "Lower priority for now, but still worth operator attention because seller activity has gone stale, the buyer has not responded to follow-up, and the record has no clear next step.",
+      "business_rationale": "Business risk is concentrated in a missing next step, stale seller activity, and an unresponsive buyer, so this record needs operator attention before it slips further.",
+      "operator_note": "Keep this in the operator queue and verify follow-up by 2026-03-19.",
+      "confidence": 0.755,
+      "escalation_required": false
+    },
+    {
+      "record_id": "L-102",
+      "priority_level": "P3",
+      "score": 36,
+      "recommended_owner": "Jordan",
+      "due_date": "2026-03-19",
+      "next_action": "Jordan should send a demo confirmation to Beacon Manufacturing, lock attendees and agenda, and convert this interest into a scheduled meeting by 2026-03-19.",
+      "reason": "Lower priority for now, but still worth operator attention because the record shows enough commercial signal to warrant follow-up and the buyer has already requested a demo.",
+      "business_rationale": "Business risk is concentrated in mixed commercial risk, so this record needs operator attention before it slips further.",
+      "operator_note": "Keep this in the operator queue and verify follow-up by 2026-03-19.",
+      "confidence": 0.73,
+      "escalation_required": false
+    },
+    {
+      "record_id": "L-100",
+      "priority_level": "P3",
+      "score": 32,
+      "recommended_owner": "Alicia",
+      "due_date": "2026-03-19",
+      "next_action": "Alicia should send a demo confirmation to Northstar Health, lock attendees and agenda, and convert this interest into a scheduled meeting by 2026-03-19.",
+      "reason": "Lower priority for now, but still worth operator attention because the record shows enough commercial signal to warrant follow-up and budget has been confirmed, and the buyer has already requested a demo.",
+      "business_rationale": "Business risk is concentrated in mixed commercial risk, so this record needs operator attention before it slips further.",
+      "operator_note": "Keep this in the operator queue and verify follow-up by 2026-03-19.",
+      "confidence": 0.7100000000000001,
+      "escalation_required": false
+    }
+  ],
+  "action_generation": {
+    "actions": [
+      {
+        "record_id": "L-100",
+        "priority_level": "P3",
+        "score": 32,
+        "recommended_owner": "Alicia",
+        "due_date": "2026-03-19",
+        "next_action": "Alicia should send a demo confirmation to Northstar Health, lock attendees and agenda, and convert this interest into a scheduled meeting by 2026-03-19.",
+        "reason": "Lower priority for now, but still worth operator attention because the record shows enough commercial signal to warrant follow-up and budget has been confirmed, and the buyer has already requested a demo.",
+        "business_rationale": "Buyer intent is strong: the account requested a demo and signaled budget, so delay would waste active demand.",
+        "operator_note": "Keep this in the operator queue and verify follow-up by 2026-03-19.",
+        "confidence": 0.7100000000000001,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-200",
+        "priority_level": "P1",
+        "score": 100,
+        "recommended_owner": "Marcus",
+        "due_date": "2026-03-15",
+        "next_action": "Marcus should identify a new champion at BluePeak Logistics, send a same-day follow-up to confirm decision ownership, and log a replacement contact plus next meeting by 2026-03-15.",
+        "reason": "Highest priority because the deal may have lost its champion, the close window is near without a committed next step, the deal has been sitting in stage too long, competitive pressure is active, seller activity has gone stale, and the record has no clear next step.",
+        "business_rationale": "Near-close slippage risk on an active deal: BluePeak Logistics is close to deadline without a committed next step.",
+        "operator_note": "Review with Marcus today and confirm the CRM next step before 2026-03-15. Add manager visibility on this record in the same update.",
+        "confidence": 0.95,
+        "escalation_required": true
+      },
+      {
+        "record_id": "O-201",
+        "priority_level": "P2",
+        "score": 66,
+        "recommended_owner": "Jules",
+        "due_date": "2026-03-17",
+        "next_action": "Jules should send a concrete follow-up to Acme Robotics with two meeting slots, call the main contact, and close the loop in CRM if there is still no response by 2026-03-17.",
+        "reason": "Prioritized because seller activity has gone stale, and the buyer has not responded to follow-up and the deal still has meaningful pipeline value.",
+        "business_rationale": "Pipeline hygiene risk: the record is active enough to matter, but recent inactivity suggests it could drift without operator intervention.",
+        "operator_note": "Check that Jules has a dated next step in CRM before 2026-03-17.",
+        "confidence": 0.8800000000000001,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-202",
+        "priority_level": "P2",
+        "score": 74,
+        "recommended_owner": "Nina",
+        "due_date": "2026-03-17",
+        "next_action": "Nina should move Delta Bio to the next commercial step, confirm buying process, and document a dated next action in CRM by 2026-03-17.",
+        "reason": "Prioritized because seller activity has gone stale, while budget has been confirmed shows the record is still commercially active.",
+        "business_rationale": "Budget appears real, so the account should be advanced to a dated commercial next step instead of sitting in queue.",
+        "operator_note": "Check that Nina has a dated next step in CRM before 2026-03-17.",
+        "confidence": 0.92,
+        "escalation_required": false
+      },
+      {
+        "record_id": "L-101",
+        "priority_level": "P3",
+        "score": 41,
+        "recommended_owner": "Sam",
+        "due_date": "2026-03-19",
+        "next_action": "Sam should send a concrete follow-up to Harbor Retail with two meeting slots, call the main contact, and close the loop in CRM if there is still no response by 2026-03-19.",
+        "reason": "Lower priority for now, but still worth operator attention because seller activity has gone stale, the buyer has not responded to follow-up, and the record has no clear next step.",
+        "business_rationale": "Pipeline hygiene risk: the record is active enough to matter, but recent inactivity suggests it could drift without operator intervention.",
+        "operator_note": "Keep this in the operator queue and verify follow-up by 2026-03-19.",
+        "confidence": 0.755,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-203",
+        "priority_level": "P1",
+        "score": 88,
+        "recommended_owner": "Devon",
+        "due_date": "2026-03-15",
+        "next_action": "Devon should clarify decision criteria and blocker with Quartz Security, schedule a buyer touchpoint within 24 hours, and document competitive next steps plus timeline in CRM by 2026-03-15.",
+        "reason": "Highest priority because the deal has been sitting in stage too long, competitive pressure is active, and seller activity has gone stale.",
+        "business_rationale": "High-ACV opportunity under competitive pressure: the deal needs immediate intervention to protect pipeline value.",
+        "operator_note": "Review with Devon today and confirm the CRM next step before 2026-03-15. Add manager visibility on this record in the same update.",
+        "confidence": 0.95,
+        "escalation_required": true
+      },
+      {
+        "record_id": "O-204",
+        "priority_level": "P1",
+        "score": 100,
+        "recommended_owner": "Maya",
+        "due_date": "2026-03-15",
+        "next_action": "Maya should lock the next buyer meeting for Atlas Cloud today, add the dated meeting and owner in CRM immediately, and confirm buyer commitments before the close window slips.",
+        "reason": "Highest priority because the close window is near without a committed next step, seller activity has gone stale, and the record has no clear next step.",
+        "business_rationale": "Near-close slippage risk on an active deal: Atlas Cloud is close to deadline without a committed next step.",
+        "operator_note": "Review with Maya today and confirm the CRM next step before 2026-03-15. Add manager visibility on this record in the same update.",
+        "confidence": 0.95,
+        "escalation_required": true
+      },
+      {
+        "record_id": "L-102",
+        "priority_level": "P3",
+        "score": 36,
+        "recommended_owner": "Jordan",
+        "due_date": "2026-03-19",
+        "next_action": "Jordan should send a demo confirmation to Beacon Manufacturing, lock attendees and agenda, and convert this interest into a scheduled meeting by 2026-03-19.",
+        "reason": "Lower priority for now, but still worth operator attention because the record shows enough commercial signal to warrant follow-up and the buyer has already requested a demo.",
+        "business_rationale": "Requested-demo signal is already present, so the operator should convert that interest into a scheduled meeting quickly.",
+        "operator_note": "Keep this in the operator queue and verify follow-up by 2026-03-19.",
+        "confidence": 0.73,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-205",
+        "priority_level": "P2",
+        "score": 50,
+        "recommended_owner": "Priya",
+        "due_date": "2026-03-17",
+        "next_action": "Priya should contact Cedar Analytics, confirm the buyer's next milestone, and leave a dated follow-up step in CRM by 2026-03-17.",
+        "reason": "Prioritized because the record shows enough commercial signal to warrant follow-up and the deal still has meaningful pipeline value.",
+        "business_rationale": "This record is active but not urgent, so it belongs in the operator queue rather than manager escalation.",
+        "operator_note": "Check that Priya has a dated next step in CRM before 2026-03-17.",
+        "confidence": 0.8,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-206",
+        "priority_level": "P2",
+        "score": 74,
+        "recommended_owner": "Rafael",
+        "due_date": "2026-03-17",
+        "next_action": "Rafael should clean up the open items on Elm Commerce, confirm whether legal, pricing, or process is blocking the deal, and replace the vague next step with a dated commercial action in CRM by 2026-03-17.",
+        "reason": "Prioritized because seller activity has gone stale, while budget has been confirmed shows the record is still commercially active.",
+        "business_rationale": "Budget is likely real, but weak process discipline is reducing forecast clarity and needs cleanup before the deal can progress.",
+        "operator_note": "Check that Rafael has a dated next step in CRM before 2026-03-17.",
+        "confidence": 0.92,
+        "escalation_required": false
+      }
+    ],
+    "generation_mode": "rules",
+    "model_name": null,
+    "token_input": null,
+    "token_output": null
+  },
+  "review": {
+    "approved": false,
+    "issues": [
+      "L-100: business rationale is too generic.",
+      "O-201: business rationale is too generic.",
+      "L-101: business rationale is too generic.",
+      "L-102: business rationale is too generic.",
+      "O-205: business rationale is too generic.",
+      "O-206: business rationale is too generic."
+    ],
+    "repaired_actions": [
+      {
+        "record_id": "L-100",
+        "priority_level": "P3",
+        "score": 32,
+        "recommended_owner": "Alicia",
+        "due_date": "2026-03-19",
+        "next_action": "Alicia should send a demo confirmation to Northstar Health, lock attendees and agenda, and convert this interest into a scheduled meeting by 2026-03-19.",
+        "reason": "Lower priority for now, but still worth operator attention because the record shows enough commercial signal to warrant follow-up and budget has been confirmed, and the buyer has already requested a demo.",
+        "business_rationale": "Business risk is concentrated in mixed commercial risk, so this record needs operator attention before it slips further.",
+        "operator_note": "Keep this in the operator queue and verify follow-up by 2026-03-19.",
+        "confidence": 0.7100000000000001,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-200",
+        "priority_level": "P1",
+        "score": 100,
+        "recommended_owner": "Marcus",
+        "due_date": "2026-03-15",
+        "next_action": "Marcus should identify a new champion at BluePeak Logistics, send a same-day follow-up to confirm decision ownership, and log a replacement contact plus next meeting by 2026-03-15.",
+        "reason": "Highest priority because the deal may have lost its champion, the close window is near without a committed next step, the deal has been sitting in stage too long, competitive pressure is active, seller activity has gone stale, and the record has no clear next step.",
+        "business_rationale": "Near-close slippage risk on an active deal: BluePeak Logistics is close to deadline without a committed next step.",
+        "operator_note": "Review with Marcus today and confirm the CRM next step before 2026-03-15. Add manager visibility on this record in the same update.",
+        "confidence": 0.95,
+        "escalation_required": true
+      },
+      {
+        "record_id": "O-201",
+        "priority_level": "P2",
+        "score": 66,
+        "recommended_owner": "Jules",
+        "due_date": "2026-03-17",
+        "next_action": "Jules should send a concrete follow-up to Acme Robotics with two meeting slots, call the main contact, and close the loop in CRM if there is still no response by 2026-03-17.",
+        "reason": "Prioritized because seller activity has gone stale, and the buyer has not responded to follow-up and the deal still has meaningful pipeline value.",
+        "business_rationale": "Business risk is concentrated in stale seller activity, and an unresponsive buyer, so this record needs operator attention before it slips further.",
+        "operator_note": "Check that Jules has a dated next step in CRM before 2026-03-17.",
+        "confidence": 0.8800000000000001,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-202",
+        "priority_level": "P2",
+        "score": 74,
+        "recommended_owner": "Nina",
+        "due_date": "2026-03-17",
+        "next_action": "Nina should move Delta Bio to the next commercial step, confirm buying process, and document a dated next action in CRM by 2026-03-17.",
+        "reason": "Prioritized because seller activity has gone stale, while budget has been confirmed shows the record is still commercially active.",
+        "business_rationale": "Budget appears real, so the account should be advanced to a dated commercial next step instead of sitting in queue.",
+        "operator_note": "Check that Nina has a dated next step in CRM before 2026-03-17.",
+        "confidence": 0.92,
+        "escalation_required": false
+      },
+      {
+        "record_id": "L-101",
+        "priority_level": "P3",
+        "score": 41,
+        "recommended_owner": "Sam",
+        "due_date": "2026-03-19",
+        "next_action": "Sam should send a concrete follow-up to Harbor Retail with two meeting slots, call the main contact, and close the loop in CRM if there is still no response by 2026-03-19.",
+        "reason": "Lower priority for now, but still worth operator attention because seller activity has gone stale, the buyer has not responded to follow-up, and the record has no clear next step.",
+        "business_rationale": "Business risk is concentrated in a missing next step, stale seller activity, and an unresponsive buyer, so this record needs operator attention before it slips further.",
+        "operator_note": "Keep this in the operator queue and verify follow-up by 2026-03-19.",
+        "confidence": 0.755,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-203",
+        "priority_level": "P1",
+        "score": 88,
+        "recommended_owner": "Devon",
+        "due_date": "2026-03-15",
+        "next_action": "Devon should clarify decision criteria and blocker with Quartz Security, schedule a buyer touchpoint within 24 hours, and document competitive next steps plus timeline in CRM by 2026-03-15.",
+        "reason": "Highest priority because the deal has been sitting in stage too long, competitive pressure is active, and seller activity has gone stale.",
+        "business_rationale": "High-ACV opportunity under competitive pressure: the deal needs immediate intervention to protect pipeline value.",
+        "operator_note": "Review with Devon today and confirm the CRM next step before 2026-03-15. Add manager visibility on this record in the same update.",
+        "confidence": 0.95,
+        "escalation_required": true
+      },
+      {
+        "record_id": "O-204",
+        "priority_level": "P1",
+        "score": 100,
+        "recommended_owner": "Maya",
+        "due_date": "2026-03-15",
+        "next_action": "Maya should lock the next buyer meeting for Atlas Cloud today, add the dated meeting and owner in CRM immediately, and confirm buyer commitments before the close window slips.",
+        "reason": "Highest priority because the close window is near without a committed next step, seller activity has gone stale, and the record has no clear next step.",
+        "business_rationale": "Near-close slippage risk on an active deal: Atlas Cloud is close to deadline without a committed next step.",
+        "operator_note": "Review with Maya today and confirm the CRM next step before 2026-03-15. Add manager visibility on this record in the same update.",
+        "confidence": 0.95,
+        "escalation_required": true
+      },
+      {
+        "record_id": "L-102",
+        "priority_level": "P3",
+        "score": 36,
+        "recommended_owner": "Jordan",
+        "due_date": "2026-03-19",
+        "next_action": "Jordan should send a demo confirmation to Beacon Manufacturing, lock attendees and agenda, and convert this interest into a scheduled meeting by 2026-03-19.",
+        "reason": "Lower priority for now, but still worth operator attention because the record shows enough commercial signal to warrant follow-up and the buyer has already requested a demo.",
+        "business_rationale": "Business risk is concentrated in mixed commercial risk, so this record needs operator attention before it slips further.",
+        "operator_note": "Keep this in the operator queue and verify follow-up by 2026-03-19.",
+        "confidence": 0.73,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-205",
+        "priority_level": "P2",
+        "score": 50,
+        "recommended_owner": "Priya",
+        "due_date": "2026-03-17",
+        "next_action": "Priya should contact Cedar Analytics, confirm the buyer's next milestone, and leave a dated follow-up step in CRM by 2026-03-17.",
+        "reason": "Prioritized because the record shows enough commercial signal to warrant follow-up and the deal still has meaningful pipeline value.",
+        "business_rationale": "Business risk is concentrated in mixed commercial risk, so this record needs operator attention before it slips further.",
+        "operator_note": "Check that Priya has a dated next step in CRM before 2026-03-17.",
+        "confidence": 0.8,
+        "escalation_required": false
+      },
+      {
+        "record_id": "O-206",
+        "priority_level": "P2",
+        "score": 74,
+        "recommended_owner": "Rafael",
+        "due_date": "2026-03-17",
+        "next_action": "Rafael should clean up the open items on Elm Commerce, confirm whether legal, pricing, or process is blocking the deal, and replace the vague next step with a dated commercial action in CRM by 2026-03-17.",
+        "reason": "Prioritized because seller activity has gone stale, while budget has been confirmed shows the record is still commercially active.",
+        "business_rationale": "Business risk is concentrated in stale seller activity, so this record needs operator attention before it slips further.",
+        "operator_note": "Check that Rafael has a dated next step in CRM before 2026-03-17.",
+        "confidence": 0.92,
+        "escalation_required": false
+      }
+    ],
+    "repair_triggered": true,
+    "repaired_record_ids": [
+      "L-100",
+      "L-101",
+      "L-102",
+      "O-201",
+      "O-205",
+      "O-206"
+    ],
+    "revision_rounds": 1,
+    "review_summary": "Reviewer repaired 6 records after finding 6 issues."
+  },
+  "summary": {
+    "headline": "RevOps Daily Pipeline Triage",
+    "top_actions": [
+      "O-200: Marcus should identify a new champion at BluePeak Logistics, send a same-day follow-up to confirm decision ownership, and log a replacement contact plus next meeting by 2026-03-15. (P1, score=100, owner=Marcus)",
+      "O-204: Maya should lock the next buyer meeting for Atlas Cloud today, add the dated meeting and owner in CRM immediately, and confirm buyer commitments before the close window slips. (P1, score=100, owner=Maya)",
+      "O-203: Devon should clarify decision criteria and blocker with Quartz Security, schedule a buyer touchpoint within 24 hours, and document competitive next steps plus timeline in CRM by 2026-03-15. (P1, score=88, owner=Devon)",
+      "O-202: Nina should move Delta Bio to the next commercial step, confirm buying process, and document a dated next action in CRM by 2026-03-17. (P2, score=74, owner=Nina)",
+      "O-206: Rafael should clean up the open items on Elm Commerce, confirm whether legal, pricing, or process is blocking the deal, and replace the vague next step with a dated commercial action in CRM by 2026-03-17. (P2, score=74, owner=Rafael)"
+    ],
+    "risks": [
+      "O-200: champion_left, competitive_pressure, missing_next_step, no_next_step_near_close, stale_activity, stalled_stage",
+      "O-201: stale_activity, unresponsive_buyer",
+      "O-202: stale_activity",
+      "L-101: missing_next_step, stale_activity, unresponsive_buyer",
+      "O-203: competitive_pressure, stale_activity, stalled_stage"
+    ],
+    "data_quality_notes": [
+      "No validation issues."
+    ],
+    "manager_notes": [
+      "O-200: escalation recommended for Marcus",
+      "O-204: escalation recommended for Maya",
+      "O-203: escalation recommended for Devon"
+    ]
+  },
+  "output_dir": "C:\\Users\\CaesarZhu\\AppData\\Local\\Temp\\pytest-of-CaesarZhu\\pytest-13\\test_workflow_smoke0",
+  "metrics": {
+    "run_started_at": "2026-03-14T20:29:45.804757Z",
+    "run_ended_at": "2026-03-14T20:29:45.922167Z",
+    "total_latency_ms": 117,
+    "success": true,
+    "traces": [
+      {
+        "agent_name": "intake_coordinator",
+        "started_at": "2026-03-14T20:29:45.805760Z",
+        "ended_at": "2026-03-14T20:29:45.806760Z",
+        "latency_ms": 1,
+        "success": true,
+        "retries": 0,
+        "generation_mode": null,
+        "model_name": null,
+        "token_input": null,
+        "token_output": null,
+        "repair_triggered": false,
+        "error_message": null
+      },
+      {
+        "agent_name": "classification_agent",
+        "started_at": "2026-03-14T20:29:45.806760Z",
+        "ended_at": "2026-03-14T20:29:45.806760Z",
+        "latency_ms": 0,
+        "success": true,
+        "retries": 0,
+        "generation_mode": null,
+        "model_name": null,
+        "token_input": null,
+        "token_output": null,
+        "repair_triggered": false,
+        "error_message": null
+      },
+      {
+        "agent_name": "action_agent",
+        "started_at": "2026-03-14T20:29:45.806760Z",
+        "ended_at": "2026-03-14T20:29:45.806760Z",
+        "latency_ms": 0,
+        "success": true,
+        "retries": 0,
+        "generation_mode": "rules",
+        "model_name": null,
+        "token_input": null,
+        "token_output": null,
+        "repair_triggered": false,
+        "error_message": null
+      },
+      {
+        "agent_name": "review_agent",
+        "started_at": "2026-03-14T20:29:45.807756Z",
+        "ended_at": "2026-03-14T20:29:45.807756Z",
+        "latency_ms": 0,
+        "success": true,
+        "retries": 0,
+        "generation_mode": null,
+        "model_name": null,
+        "token_input": null,
+        "token_output": null,
+        "repair_triggered": true,
+        "error_message": null
+      }
+    ]
+  }
+}

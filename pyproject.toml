@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agno-revops-triage"
+version = "0.1.0"
+description = "AI-native RevOps triage workflow built with Agno"
+requires-python = ">=3.10"
+dependencies = [
+    "agno>=1.8.0",
+    "fastapi>=0.115.0",
+    "openai>=1.54.0",
+    "pydantic>=2.8.0",
+    "python-dotenv>=1.0.1",
+    "rich>=13.7.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.2",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
