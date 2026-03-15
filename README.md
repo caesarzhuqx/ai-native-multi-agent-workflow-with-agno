@@ -205,3 +205,7 @@ I added and kept a deterministic fallback path as an intentional engineering cho
 I also added a lightweight evaluation harness late in the process to make the project more defensible. It checks output ordering, P1 escalation alignment, action concreteness, review completion, and the presence of both structured and operator-facing artifacts.
 
 Overall, AI was most valuable as a fast implementation partner, but the quality of the final submission depended on repeated human correction: tightening scope, improving business realism, calibrating scoring, upgrading tests, and debugging the final outputs until they matched the intended workflow behavior.
+
+## Video Demo
+
+https://drive.google.com/file/d/1AY-HCeafxiGHmgUJdjP-Q8pZMah-XHC1/view?usp=sharing
